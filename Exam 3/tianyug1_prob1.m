@@ -45,8 +45,6 @@ for i = 1:6;
     
     [ecal]=fsolve(F,guess);
     Ecal(i,:)=ecal;
-
-
 end
 sprintf('The reaction extent is ')
 Ecal

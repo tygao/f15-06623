@@ -24,8 +24,6 @@ title('Problem 3');
         dhdt(1) = 1/A1*(Q0-Q1);
         dhdt(2) = 1/A2*(Q1-Q2);
         dhdt(3) = 1/A3*(Q2-Q3);
-
-
     end
-% Time is large, Might be some wrong scale with unit 
+% Time is large, Might be something wrong with unit scale 
 end
